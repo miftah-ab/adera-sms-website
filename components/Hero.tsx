@@ -8,7 +8,7 @@ export default function Hero() {
           Adera<span className="text-gold"> SMS</span>
         </span>
         <a
-          href="#download"
+          href="https://github.com/miftah-ab/adera-sms/releases/latest/download/Adera.SMS.apk"
           className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-ink transition-transform hover:scale-105 active:scale-95"
         >
           Download
