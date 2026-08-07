@@ -26,7 +26,7 @@ export default function Hero() {
 
         <a
           id="download"
-          href="/downloads/adera-sms.apk"
+          href="https://github.com/miftah-ab/adera-sms/releases/latest/download/Adera%20SMS.apk"
           className="mt-10 rounded-full bg-gold px-10 py-4 text-lg font-semibold text-ink shadow-lg shadow-gold/30 transition-transform hover:scale-105 active:scale-95"
         >
           Download Now
