@@ -1,3 +1,5 @@
+import ChecksumDisplay from "./ChecksumDisplay";
+
 const steps = [
   "Tap the download button above to get the file.",
   "Open the downloaded file from your notifications or downloads folder.",
@@ -18,7 +20,7 @@ export default function InstallSteps() {
         </p>
         <ol className="mt-8 space-y-4">
           {steps.map((step, i) => (
-            <li key={step} className="flex gap-4 rounded-xl bg-white p-4">
+            <li key={step} className="flex gap-4 rounded-xl bg-white p-4 shadow-sm">
               <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-green-bright text-sm font-bold text-white">
                 {i + 1}
               </span>
@@ -26,6 +28,7 @@ export default function InstallSteps() {
             </li>
           ))}
         </ol>
+        <ChecksumDisplay />
       </div>
     </section>
   );

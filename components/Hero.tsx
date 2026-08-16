@@ -1,14 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <header className="bg-green-deep text-cream">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <span className="font-[family-name:var(--font-display)] text-xl font-semibold">
-          Adera<span className="text-gold"> SMS</span>
-        </span>
+        <div className="flex flex-col items-center">
+          <Image src="/aderasms-logo.png" alt="Adera SMS Logo" width={64} height={64} className="mb-2" />
+          <span className="font-[family-name:var(--font-display)] text-xl font-semibold">
+            Adera<span className="text-gold"> SMS</span>
+          </span>
+        </div>
         <a
-          href="https://github.com/miftah-ab/adera-sms/releases/latest/download/Adera.SMS.apk"
+          href="/downloads/AderaSMS.apk"
           className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-ink transition-transform hover:scale-105 active:scale-95"
         >
           Download
@@ -26,12 +30,15 @@ export default function Hero() {
 
         <a
           id="download"
-          href="https://github.com/miftah-ab/adera-sms/releases/latest/download/Adera.SMS.apk"
+          href="/downloads/AderaSMS.apk"
           className="mt-10 rounded-full bg-gold px-10 py-4 text-lg font-semibold text-ink shadow-lg shadow-gold/30 transition-transform hover:scale-105 active:scale-95"
         >
           Download Now
         </a>
-        <p className="mt-4 text-sm text-gold-soft">
+        <p className="mt-3 font-medium text-cream/90">
+          Over 1.3K people have downloaded Adera SMS
+        </p>
+        <p className="mt-2 text-sm text-gold-soft">
           Free to use. Works on Android. Nothing is uploaded, ever.
         </p>
       </div>

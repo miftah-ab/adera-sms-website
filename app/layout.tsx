@@ -25,7 +25,6 @@ export const metadata: Metadata = {
     description:
       "Auto reply to missed calls. Fully offline. Available now for Android.",
     type: "website",
-    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
