@@ -1,13 +1,13 @@
 # PRIVACY POLICY
 
-**Effective Date:** [EFFECTIVE DATE]
-**Last Updated:** [EFFECTIVE DATE]
+**Effective Date:** August 1, 2026
+**Last Updated:** August 1, 2026
 
 ## 1. Introduction
 
 Adera SMS ("the Application," "the App," "Adera SMS") is an Android application that automatically sends a user-configured SMS reply when the user misses a phone call. This Privacy Policy explains what information the Application may access, how that information is used, and what happens to it, so that users can make an informed decision about installing and using the Application.
 
-This Application is developed and operated by [OWNER LEGAL NAME] ("the Developer," "we," "us," "our"). Where the Developer's legal identity as an individual or registered business is not yet established, this Policy uses the placeholder above until that information is finalized.
+This Application is developed and operated by Adera SMS ("the Developer," "we," "us," "our"). Where the Developer's legal identity as an individual or registered business is not yet established, this Policy uses the placeholder above until that information is finalized.
 
 This Privacy Policy applies to the Adera SMS Android application, its associated update mechanism, and any Adera SMS website used to distribute the Application or this Policy. It does not apply to third-party services a user may choose to visit from within the Application, such as an external support or payment page, which are addressed separately in Section 16.
 
@@ -128,8 +128,8 @@ The Developer may update this Privacy Policy from time to time to reflect change
 ## 18. Contact
 
 For questions about this Privacy Policy or the Application's data practices, contact:
-Developer/Owner: [OWNER LEGAL NAME]
-Privacy Contact Email: [CONTACT EMAIL]
+Developer/Owner: Adera SMS
+Privacy Contact Email: aderasms@gmail.com
 
 ## 19. Legal Disclaimer
 

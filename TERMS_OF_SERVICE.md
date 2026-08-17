@@ -1,11 +1,11 @@
 # TERMS OF SERVICE
 
-**Effective Date:** [EFFECTIVE DATE]
-**Last Updated:** [EFFECTIVE DATE]
+**Effective Date:** August 1, 2026
+**Last Updated:** August 1, 2026
 
 ## 1. Introduction and Acceptance
 
-These Terms of Service ("Terms") govern the download, installation, and use of Adera SMS ("the Application," "the App"), developed by [OWNER LEGAL NAME] ("the Developer," "we," "us," "our"). By installing or using the Application, you ("the User," "you") agree to be bound by these Terms. If you do not agree, do not install or use the Application.
+These Terms of Service ("Terms") govern the download, installation, and use of Adera SMS ("the Application," "the App"), developed by Adera SMS ("the Developer," "we," "us," "our"). By installing or using the Application, you ("the User," "you") agree to be bound by these Terms. If you do not agree, do not install or use the Application.
 
 ## 2. Definitions
 
@@ -117,7 +117,7 @@ The Developer may revise these Terms from time to time. The "Last Updated" date 
 
 ## 29. Governing Law
 
-These Terms shall be governed by the laws of [GOVERNING JURISDICTION], without regard to its conflict of law principles, except where mandatory local consumer protection law provides otherwise.
+These Terms shall be governed by the laws of Ethiopia, without regard to its conflict of law principles, except where mandatory local consumer protection law provides otherwise.
 
 ## 30. Dispute Resolution
 
@@ -150,9 +150,9 @@ The Developer may provide notices to you through the Application itself, such as
 ## 37. Contact Information
 
 For questions about these Terms, contact:
-Developer/Owner: [OWNER LEGAL NAME]
-Contact Email: [CONTACT EMAIL]
+Developer/Owner: Adera SMS
+Contact Email: aderasms@gmail.com
 
 ## 38. Effective Date / Last Updated
 
-These Terms are effective as of [EFFECTIVE DATE] and were last updated on [EFFECTIVE DATE].
+These Terms are effective as of August 1, 2026 and were last updated on August 1, 2026.

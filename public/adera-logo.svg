@@ -1,0 +1,28 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aderaGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="40%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#F59E0B" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <g filter="url(#subtleGlow)">
+    <!-- Handset Receiver -->
+    <path d="M178 108C206 108 234 136 242 168C248 192 232 216 208 226C198 230 192 240 196 250C210 286 240 316 276 330C286 334 296 328 300 318C310 294 334 278 358 284C390 292 418 320 418 348C418 382 384 416 342 416C238 416 130 308 130 204C130 162 144 108 178 108Z" stroke="url(#aderaGoldGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Handset Highlights -->
+    <path d="M192 160C202 186 226 210 252 220" stroke="url(#aderaGoldGrad)" stroke-width="24" stroke-linecap="round" />
+    <path d="M306 274C316 300 340 324 366 334" stroke="url(#aderaGoldGrad)" stroke-width="24" stroke-linecap="round" />
+    <!-- Speech Bubble Body & Tail -->
+    <path d="M165 290C145 325 140 370 175 405C185 415 188 425 180 445C215 435 240 415 255 408C290 415 330 405 355 375" stroke="url(#aderaGoldGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Return Arrow -->
+    <path d="M320 198L274 238L320 278" stroke="url(#aderaGoldGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M285 238C345 238 388 260 388 310" stroke="url(#aderaGoldGrad)" stroke-width="28" stroke-linecap="round" />
+    <!-- Message Speed Lines -->
+    <line x1="298" y1="300" x2="352" y2="300" stroke="url(#aderaGoldGrad)" stroke-width="24" stroke-linecap="round" />
+    <line x1="284" y1="344" x2="346" y2="344" stroke="url(#aderaGoldGrad)" stroke-width="24" stroke-linecap="round" />
+    <line x1="290" y1="388" x2="336" y2="388" stroke="url(#aderaGoldGrad)" stroke-width="24" stroke-linecap="round" />
+  </g>
+</svg>
