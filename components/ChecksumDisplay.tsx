@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const VERSION_JSON_URL =
-  "https://raw.githubusercontent.com/miftah-ab/adera-sms/main/version.json";
+const VERSION_JSON_URL = "/downloads/version.json";
 
 export default function ChecksumDisplay() {
   const [checksum, setChecksum] = useState<string | null>(null);
