@@ -1,21 +1,21 @@
-import Image from "next/image";
+import Image from"next/image";
 
 export default function AderaLogo({
-  className = "w-8 h-8",
+  className ="w-8 h-8",
   showText = false,
-  variant = "mark",
+  variant ="mark",
 }: {
   className?: string;
   showText?: boolean;
-  variant?: "mark" | "badge";
+  variant?:"mark" |"badge";
 }) {
   return (
     <div className="inline-flex items-center gap-2.5">
       <div
         className={`relative flex items-center justify-center shrink-0 ${
-          variant === "badge"
-            ? "p-1.5 rounded-xl bg-gradient-to-br from-emerald-950/60 to-emerald-900/20 border border-emerald-500/25 shadow-[0_0_15px_rgba(16,185,129,0.15)] backdrop-blur-sm"
-            : ""
+          variant ==="badge"
+            ?"p-1.5 rounded-xl bg-white border border-slate-200 shadow-[0_4px_12px_rgba(16,185,129,0.08)] backdrop-blur-sm"
+            :""
         }`}
       >
         <Image

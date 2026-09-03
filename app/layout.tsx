@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Noto_Sans_Ethiopic } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,8 +8,14 @@ const inter = Inter({
   display: "swap",
 });
 
+const ethiopic = Noto_Sans_Ethiopic({
+  subsets: ["ethiopic"],
+  variable: "--font-ethiopic",
+  display: "swap",
+});
+
 export const viewport: Viewport = {
-  themeColor: "#050b08",
+  themeColor: "#ffffff",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -81,14 +87,14 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${inter.variable} dark scroll-smooth`}>
+    <html lang="en" className={`${inter.variable} ${ethiopic.variable} scroll-smooth`}>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-screen bg-surface-obsidian text-zinc-100 font-sans antialiased selection:bg-brand-500/30 selection:text-white">
+      <body className="min-h-screen bg-white text-slate-900 font-sans antialiased">
         {children}
       </body>
     </html>

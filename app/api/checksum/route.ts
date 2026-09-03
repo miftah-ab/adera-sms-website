@@ -1,22 +1,11 @@
 import { NextResponse } from 'next/server';
-import crypto from 'crypto';
-import fs from 'fs';
-import path from 'path';
 
+// This route is deprecated. SHA-256 is now sourced directly from version.json
+// in the app repository (miftah-ab/adera-sms), which is populated at build time
+// by the GitHub Actions workflow. ChecksumDisplay.tsx fetches it from there.
 export async function GET() {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'downloads', 'AderaSMS.apk');
-    if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: 'File not found' }, { status: 404 });
-    }
-    
-    const fileBuffer = fs.readFileSync(filePath);
-    const hashSum = crypto.createHash('sha256');
-    hashSum.update(fileBuffer);
-    const hex = hashSum.digest('hex');
-    
-    return NextResponse.json({ checksum: hex });
-  } catch (error) {
-    return NextResponse.json({ error: 'Failed to compute checksum' }, { status: 500 });
-  }
+  return NextResponse.json(
+    { error: 'This endpoint is deprecated. Checksum is available in version.json.' },
+    { status: 410 }
+  );
 }
