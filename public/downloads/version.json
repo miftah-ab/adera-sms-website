@@ -1,7 +1,8 @@
 {
-  "latestVersionCode": 3,
+  "latestVersionCode": 4,
   "minSupportedVersionCode": 1,
   "downloadUrl": "https://adera-sms.vercel.app/downloads/AderaSMS.apk",
-  "releaseNotes": "Version 1.0.2 — see GitHub release for details.",
-  "disableCoreService": false
+  "releaseNotes": "Version 1.0.3 — see GitHub release for details.",
+  "disableCoreService": false,
+  "sha256": "f918a87622ec31091be70e12f24175c017c3540fd19b4ba4497d4a3f22d3eb02"
 }
